@@ -1,20 +1,20 @@
 <template>
   <div class="component">
-    <SocialNetworks />
+    <HomeTemplate />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { SocialNetworks } from '@/components/molecules';
+import { HomeTemplate } from '@/components/templates';
 
 export default defineComponent({
-  components: { SocialNetworks }
+  components: { HomeTemplate }
 });
 </script>
 
 <style lang="scss" scoped>
 .component {
-  margin: 5rem;
+  margin: 0;
 }
 </style>
